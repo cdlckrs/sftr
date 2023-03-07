@@ -1,0 +1,815 @@
+<style>
+
+/* styles for SOFTR */
+
+/* start COLORS (global) */
+
+:root {
+
+    --blue: #c5f8ff !important;
+
+    --purple: #d2dbff !important;
+
+    --pink: #ffd9fa !important;
+
+    --red: #ffc5cb !important;
+
+    --orange: #ffdcc5 !important;
+
+    --yellow: #ffffd2 !important;
+
+    --green: #d2ffe4 !important;
+
+    --white: #ffffff !important;
+
+    --primary: #708bff !important;
+
+    --secondary: #70ffa9 !important;
+
+    --success: #70ffa9 !important;
+
+    --info: #708bff !important;
+
+    --warning: #ffb88a !important;
+
+    --danger: #ffb88a !important;
+
+    --indigo: #708bff !important;
+
+    --teal: #70ffa9 !important;
+
+    --cyan: #70ffa9 !important;
+    
+    --litepicker-button-prev-month-color-hover: #708bff !important;
+    --litepicker-button-next-month-color-hover: #708bff !important;
+    --litepicker-day-color-hover: #708bff !important;
+    --litepicker-is-today-color: #70ffa9 !important;
+    --litepicker-is-in-range-color: #d2dbff !important;
+    --litepicker-is-start-color-bg: #708bff !important;
+    --litepicker-is-end-color-bg: #708bff !important;
+    --litepicker-button-apply-color-bg: #708bff !important;
+    --litepicker-button-reset-color-hover: #708bff !important;
+    --litepicker-highlighted-day-color-bg: #70ffa9 !important;
+
+}
+
+/* end COLORS (global) */
+
+/* start BUTTON styles */
+
+#sw-form-capture-submit-btn {
+    background-color: #d2dbff !important;
+    color: #708bff !important;
+}
+
+#track .sw-btn-success {
+    background-color: #d2dbff !important;
+    color: #708bff !important;
+}
+
+#sw-sign-up-submit-btn {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+}
+
+#sw-get-code-submit-btn {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+}
+
+#sw-sign-in-with-code-submit-btn {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+}
+
+#tasklist-nav .buttons-section a {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+}
+
+.sw-text-color-default[data-element='button'] {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+}
+
+#modal-trigger {
+    background-color: #708bff !important;
+}
+
+/* end BUTTON colors */
+
+/* start TAG colors */
+
+.sw-modal .sw-modal-container  {
+	border-radius: 20px !important;
+}
+
+#tasklist .prevent-style-tags {
+    background-color: #708bff !important;
+    color: #ffffff !important;
+    border: 1px solid #708bff !important;
+    font-weight: bold !important;
+}
+
+/* end TAG colors */
+
+
+/* start CARDS */
+
+.sw-box-shadow-l {
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.08) !important;
+    border: none !important;
+}
+
+.sw-box-shadow-l:hover {
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.08) !important;
+    border: none !important;
+}
+
+.sw-box-shadow-l:focus-visible {
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.08) !important;
+    border: none !important;
+}
+
+/* end CARDS */
+
+/* start CALENDAR */
+
+#timeline .tui-full-calendar-today .tui-full-calendar-weekday-grid-date-decorator {
+    background-color: #d2dbff !important;
+    color: #3f3f3f !important;
+}
+
+#timeline .tui-full-calendar-weekday-grid-date {
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+
+}
+
+.tui-full-calendar-month-dayname-item {
+    color: #5f5f5f !important;
+}
+
+.tui-full-calendar-holiday-sun {
+    color: #5f5f5f !important;
+}
+
+.tui-full-calendar-schedule-title {
+    font-size: 24px !important;
+    color: #515151 !important;
+    font-family: comfortaa !important;
+}
+
+.tui-full-calendar-popup {
+    font-family: comfortaa !important;
+}
+
+.tui-full-calendar-weekday-schedule-title{
+    font-family: comfortaa !important;
+}
+
+.tui-full-calendar-weekday-grid-line .tui-full-calendar-weekday-grid-date {
+    font-family: comfortaa !important;
+}
+
+.tui-full-calendar-month-dayname-item {
+    font-family: comfortaa !important;
+}
+
+.calendar-render-range {
+    font-family: comfortaa !important;
+}
+
+#calendarMenu > button {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    background: #ffffff !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 5px !important;
+    color: #515151 !important;
+}
+
+#calendarMenu > button:hover {
+    color: #708bff !important;
+}
+
+#timeline button {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    background-color: #ffffff !important;
+}
+
+#timeline .fhRmxk {
+    color: #515151 !important;
+}
+
+#timeline .fhRmxk:hover {
+    color: #708bff !important;
+}
+
+#monthly {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    background-color: #ffffff !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 5px !important;
+    color: #515151 !important;
+}
+
+#monthly:hover {
+    color: #708bff !important;
+}
+
+#weekly {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    background-color: #ffffff !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 5px !important;
+    color: #515151 !important;
+}
+
+#weekly:hover {
+    color: #708bff !important;
+}
+
+
+#daily {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    background-color: #ffffff !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 5px !important;
+    color: #515151 !important;
+}
+
+#daily:hover {
+    color: #708bff !important;
+}
+
+.tui-full-calendar-dayname-name {
+    font-family: comfortaa !important;
+    text-transform: uppercase !important;
+    color: #515151 !important;
+}
+
+.tui-full-calendar-dayname-date {
+    font-family: comfortaa !important;
+    color: #515151 !important;
+}
+
+.tui-full-calendar-left-content {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    font-size: 10px !important;
+    text-align: left !important;
+}
+
+.tui-full-calendar-timegrid-hour span {
+    font-family: comfortaa !important;
+}
+
+.tui-full-calendar-timegrid-hourmarker-time {
+    font-family: comfortaa !important;
+    color: #708bff !important; 
+}
+
+.tui-full-calendar-milestone-left .tui-full-calendar-left {
+    font-size: 8px !important;
+}
+
+.tui-full-calendar-timegrid-hourmarker-line-today {
+    border-top: 1px solid #708bff !important;
+}
+
+.tui-full-calendar-timegrid-todaymarker {
+    background-color: #708bff !important;
+}
+
+.tui-full-calendar-timegrid-hourmarker-line-left {
+    border-top: 1px dashed #708bff !important;
+}
+
+/* end CALENDAR */
+
+/* start NAVS */
+
+#tasklist-nav {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+#timeline-nav {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+#table-nav {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+#track-nav {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+a:hover {
+    color: #708bff !important;
+}
+
+/*  end NAVS */
+
+/*  start FORM styles */
+
+#tasklist .sw-js-list-search-input {
+    height: 42px !important;
+}
+
+#onboard .error-message {
+    visibility: hidden !important;
+    font-size: 0px !important;
+    max-height: 0px !important;
+}
+
+#unlock .error-message {
+    visibility: hidden !important;
+    font-size: 0px !important;
+    max-height: 0px !important;
+}
+
+#onboard .sw-input-invalid {
+    border: 1px solid #ffb88a !important;
+}
+
+#unlock .sw-input-invalid {
+    border: 1px solid #ffb88a !important;
+}
+
+.terms  {
+    font-family: comfortaa !important;
+}
+
+#onboard .validation-message {
+    font-family: comfortaa !important;
+    text-transform: lowercase !important;
+    color: #ffb88a !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.sw-js-signup-fields img {
+    visibility: hidden !important;
+}
+
+#signup > div.row.align-items-center > div.col-12.text-left.terms > label > span.checkmark.position-relative.sw-checkbox {
+    border: 1px solid #f1f1f1 !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 3px !important;
+}
+
+#signup > div.row.align-items-center > div.col-12.text-left.terms > label > span.checkmark.position-relative.sw-checkbox:hover {
+    border: 1px solid #ffb88a !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 3px !important;
+}
+
+::placeholder {
+  color: #b1b1b1 !important;
+}
+
+/*  end FORM styles */
+
+
+/*  start "edit" MODAL styles */
+
+.sw-airtable-record-editor-modal .modal__content {
+    font-family: comfortaa !important;
+}
+
+.toastui-editor-contents {
+    font-family: comfortaa !important;
+}
+
+.toastui-editor-defaultUI-toolbar {
+    background-color: #f9f9f9 !important;
+}
+
+.sw-airtable-record-editor-modal .modal__header {
+    visibility: hidden !important;
+    max-height: 0px !important;
+}
+
+.modal__btn-primary {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+    background-color: #d2dbff !important;
+    color: #708bff !important;
+    height: 50px !important;
+    text-transform: uppercase; !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+    border-radius: 5px !important;
+}
+
+.modal__btn-secondary {
+
+    background-color: #f9f9f9 !important;
+    color: #b1b1b1 !important;
+    height: 50px !important;
+    text-transform: lowercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-linked-record .sw-linked-record-label {
+    color: #b1b1b1 !important;
+    text-transform: uppercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-input .sw-input-label {
+    color: #b1b1b1 !important;
+    text-transform: uppercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-input input {
+    border: 1px solid #f1f1f1 !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 3px !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-dropdown .sw-dropdown-label {
+    color: #b1b1b1 !important;
+    text-transform: uppercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.bootstrap-select .dropdown-menu li a span.text {
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .bootstrap-select .btn-light {
+    border: 1px solid #f1f1f1 !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 3px !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-textarea .sw-input-label{
+    color: #b1b1b1 !important;
+    text-transform: uppercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-date .sw-date-label {
+    color: #b1b1b1 !important;
+    text-transform: uppercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+}
+
+.sw-airtable-record-editor-modal .sw-date input {
+    background: #f9f9f9 !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 3px !important;
+}
+
+.selectize-input {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 3px !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent !important;
+}
+
+.sw-airtable-record-editor-modal .modal__content .sw-input input:focus {
+    box-shadow: none !important;
+}
+
+.selectize-dropdown {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown .description {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown-content {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown-content:hover {
+    background-color: #ffffff !important;
+    color: #515151 !important; 
+}
+
+.selectize-dropdown:hover {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown .description:hover {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown-content:active {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown:active {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown .description:active {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown-content:focus {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown:focus {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-dropdown .description:focus {
+    background-color: #ffffff !important;
+    color: #515151 !important;
+}
+
+.selectize-control.multi .selectize-input>div, .selectize-control.multi .selectize-input>div.active {
+    background: #d2dbff !important;
+    background-color: #d2dbff !important;
+    color: #515151 !important;
+}
+
+.selectize-control.multi .selectize-input {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 3px !important;
+}
+
+.toastui-editor-contents a {
+    color: #708bff !important;
+}
+
+.toastui-editor-defaultUI .toastui-editor-ok-button {
+    background-color: #708bff !important;
+    outline-color: #708bff !important;
+    text-transform: uppercase !important;
+    font-family: comfortaa !important;
+    font-weight: bold !important;
+    border-radius: 3px !important;
+}
+
+.toastui-editor-defaultUI .toastui-editor-close-button {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #f9f9f9 !important;
+    color: #b1b1b1 !important;
+    outline-color: #f9f9f9 !important;
+    text-transform: lowercase !important;
+    border-radius: 3px !important;
+    font-family: comfortaa !important;
+}
+
+.toastui-editor-popup-body input[type=text] {
+    border: 1px solid #f1f1f1 !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 3px !important;
+    color: #515151 !important;
+    font-family: comfortaa !important;
+}
+
+.toastui-editor-popup-body input[type=text]:focus {
+    outline: 1px solid #708bff !important;
+}
+
+.toastui-editor-popup-add-image .toastui-editor-file-name {
+    border: 1px solid #f1f1f1 !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 3px !important;
+    color: #515151 !important;
+    font-family: comfortaa !important;
+}
+
+.toastui-editor-popup-body label {
+    font-family: comfortaa !important;
+    color: #515151 !important;
+    text-transform: uppercase !important;
+}
+
+.toastui-editor-popup-add-image .toastui-editor-file-select-button {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #f1f1f1 !important;
+    border-radius: 3px !important;
+    font-family: comfortaa !important;
+    color: #b1b1b1 !important;
+    text-transform: lowercase !important;
+
+}
+
+.toastui-editor-popup-add-image .toastui-editor-tabs .tab-item {
+    border-bottom: 1px solid #f1f1f1 !important;
+    color: #5f5f5f !important;
+    font-family: comfortaa !important;
+    text-transform: uppercase !important;
+}
+
+.toastui-editor-popup-add-image .toastui-editor-tabs .tab-item.active {
+    border-bottom: 1px solid #708bff !important;
+    color: #708bff !important;
+    font-family: comfortaa !important;
+    text-transform: uppercase !important;
+}
+
+/*  end MODAL styles */
+
+
+/*  start DATE PICKER styles */
+
+.litepicker .container__months .month-item-header div>.month-item-name {
+    color: #5f5f5f !important;
+    font-family: comfortaa !important;
+    text-transform: uppercase !important;
+}
+
+.litepicker .container__months .month-item-weekdays-row>div {
+    font-family: comfortaa !important;
+}
+
+.litepicker .container__days .day-item {
+    font-family: comfortaa !important;
+}
+
+/*  end DATE PICKER styles */
+
+
+
+/*  start #TABLE styles */
+
+.sw-js-list-container .tag-item {
+    background-color: #708bff !important;
+    border: 1px solid #708bff !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/*  end #TABLE styles */
+
+
+
+/*  start #TRACK styles */
+
+#track label {
+    color: #5f5f5f !important;
+    font-family: comfortaa !important;
+}
+
+/*  end #TRACK styles */
+
+
+
+/* styles for SOFTR - choose and grow */
+
+body {
+    cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@07178f89f64b016ae2158da7b2bbec2fbf9972cb/cursor-green.svg'), crosshair !important;
+}
+
+.sw-cursor-default {
+    cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@07178f89f64b016ae2158da7b2bbec2fbf9972cb/cursor-green.svg'), crosshair !important;
+}
+
+.mobile-title {
+    display: none !important;
+}
+
+#description > div.sw-js-single-item-elements > div.sw-pre-image-container > div > a > span {
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.08) !important;
+}
+
+.js-list-item-button {
+    box-shadow: 0 20px 20px rgba(0,0,0,.08) !important;
+    border-radius: 30px !important;
+}
+
+.sw-border-color-f1f1f1 {
+    border-color: #ffffff !important;
+    box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+    border-radius: 30px !important;
+}
+
+.sw-border-color-f1f1f1:hover {
+    border-color: #ffffff !important;
+    box-shadow: 0px 10px 48px 8px rgb(0 0 0 / 5%), 0px 4px 12px 0px rgb(0 0 0 / 5%) !important;
+    border-radius: 30px !important;
+}
+
+/* start CHOOSE */
+
+#choose .sw-pre-button-container a {
+    cursor: url('https://cdn.jsdelivr.net/gh/cdlckrs/tdm@07178f89f64b016ae2158da7b2bbec2fbf9972cb/cursor-green.svg'), crosshair !important;
+}
+
+#choose input.sw-js-list-search-input {
+    background-position-x: 15px;
+}
+
+#choose .sw-js-list-container.sw-3-column .sw-pre-image-container a span {
+    box-shadow: none;
+}
+
+#choose .sw-js-list-container {
+    grid-gap: 20px !important;
+}
+
+#choose .prevent-style-tags {
+    font-weight: bold !important;
+}
+
+            /* --- @media --- */
+
+@media (max-width: 1199px) {
+
+    #choose .sw-js-list-container.sw-3-column {
+        grid-template-columns: auto auto auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #choose .sw-js-list-container.sw-3-column {
+        grid-template-columns: auto !important;
+    }
+}
+
+            /* --- @media --- */
+
+
+/* end CHOOSE */
+
+/* start GROW */
+
+#grow .sw-js-list-container.sw-3-column .sw-pre-image-container a span {
+    box-shadow: none;
+}
+
+#grow .sw-js-list-container {
+    grid-gap: 20px !important;
+}
+
+#grow .prevent-style-tags {
+    font-weight: bold !important;
+}
+
+            /* --- @media --- */
+
+@media (max-width: 1199px) {
+
+    #grow .sw-js-list-container.sw-3-column {
+        grid-template-columns: auto auto auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #grow .sw-js-list-container.sw-3-column {
+        grid-template-columns: auto !important;
+    }
+}
+
+            /* --- @media --- */
+
+/* end GROW */
+
+
+</style>
+
+
+
